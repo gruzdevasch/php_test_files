@@ -22,3 +22,9 @@
 }
 ?>
 </div>
+<?php if (!empty($data['text'])):?>
+<h2>Текст</h2>
+<div class="text">
+<p><?php echo $data['text'] ?></p>
+</div>
+<?php endif;?>
