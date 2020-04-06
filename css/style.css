@@ -1,0 +1,18 @@
+html{font-family:Arial, Helvetica, Geneva sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0;padding:0;height:100%;min-width:320px}
+*{box-sizing:border-box;-moz-border-box:border-box}
+a{color:#018ed4;text-decoration:none}
+a:active,a:hover{outline-width:0}
+label {width: 100%;}
+textarea{overflow:auto}
+textarea.main_input{
+    width: 100%;
+    margin-top: 15px;
+}
+.container{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.images img {display: inline-block; width: 30%; height: auto; margin: 1.5%; object-fit: cover;}
